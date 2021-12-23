@@ -16,6 +16,17 @@
     })(window,document,'script','dataLayer','GTM-WF4MDHN');</script>
     <!-- End Google Tag Manager -->
 
+    <!-- Evento de Log In -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+            'event':'login',
+            'userID':'AD98774453',
+            'userProfile':'admin',
+            'session': true
+        });
+    </script>
+
 
 
 </head>
@@ -34,7 +45,7 @@
             <ul>
                 <li><a href="#">Catálogo</a></li>
                 <li><a href="#">Sobre Nosotros</a></li>
-                <li><a id="menu_contacto" onclick="gtag('event', 'Click', {'event_category': 'Click Menu Contacto', 'event_label': 'Contacto'});" href="contacto.html">Contacto</a></li>
+                <li><a id="menu_contacto"  href="contacto.html">Contacto</a></li>
                 <li><a href="#">Login</a></li>
             </ul>
             <form action="">
